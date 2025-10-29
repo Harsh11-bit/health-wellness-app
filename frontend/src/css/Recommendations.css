@@ -1,0 +1,53 @@
+.recommendations-container {
+  padding: 30px;
+  margin: 20px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.recommendations-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.recommendations-table th, .recommendations-table td {
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.recommendations-table th {
+  background: #00c4b4;
+  color: white;
+}
+
+.recommendations-table td {
+  background: #f9f9f9;
+}
+
+.recommendations-table ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.chart-container {
+  margin: 20px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recommendation-entry h3, .recommendation-entry h4 {
+  color: #007bff;
+  margin: 20px 0 10px;
+}
+
+.recommendation-entry p {
+  color: #333;
+  line-height: 1.6;
+}

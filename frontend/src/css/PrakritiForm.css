@@ -1,0 +1,64 @@
+.prakriti-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.prakriti-form {
+  margin-top: 30px;
+  background: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 750px;
+  height: 1200px;
+  /* max-width: 600px; */
+  margin-bottom: 30px;
+}
+
+.prakriti-form h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.prakriti-form button {
+  width: 100%;
+  padding: 10px;
+  background: #00c4b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.prakriti-form button:hover {
+  background: #007bff;
+}
+
+.message {
+  color: green;
+  text-align: center;
+  margin-bottom: 15px;
+}
