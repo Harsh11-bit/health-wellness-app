@@ -297,6 +297,4 @@ curl -X POST http://localhost:5000/api/prakriti/submit -H "Content-Type: applica
 4. Add automated tests for API endpoints (Jest + supertest) and a small CI workflow.
 5. Add role-based access if you plan admin features.
 
----
 
-If you want, I can also generate a PDF version of this documentation and add commands to create and push a GitHub repository — tell me if you want me to apply changes directly or just provide command instructions.
